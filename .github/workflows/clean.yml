@@ -33,7 +33,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "[AVASAM] Clean videos folder (recreated with README.md) [skip ci]"
+            git commit -m "[AVSAM] Clean videos folder (recreated with README.md) [skip ci]"
             git pull --rebase origin "${{ github.ref_name }}"
             git push origin HEAD:"${{ github.ref_name }}"
             echo "✅ videos folder cleaned and README.md added"
