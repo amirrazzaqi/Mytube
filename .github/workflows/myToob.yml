@@ -1,5 +1,5 @@
 ---
-name: 01- 💾 You tube Downloader
+name: 01- 💾 My tupe Downloader
 
 on:
   workflow_dispatch:
